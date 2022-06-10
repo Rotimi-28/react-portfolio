@@ -1,6 +1,10 @@
 //import logo from './logo.svg';
 import React, {useState} from 'react';
 import contactForm from './components/contactForm';
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
