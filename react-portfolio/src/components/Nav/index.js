@@ -1,6 +1,6 @@
 import React from "react";
  
-function Nav(pros) {
+function Nav(props) {
   const {
     setSectionSelected,
     sectionSelected,
