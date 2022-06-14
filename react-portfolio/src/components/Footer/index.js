@@ -1,6 +1,6 @@
 import React from "react";
-import linkinlogo from "../../assets/img/linkinlogo";
-import githublogo from "../../assets/img/githublogo";
+import linkinlogo from "../../assets/img/linkedin-logo.png";
+import githublogo from "../../assets/img/githulogo.png";
 
 function Footer() {
     //footer with github and linkin logo

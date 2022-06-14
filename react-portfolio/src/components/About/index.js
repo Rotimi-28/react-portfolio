@@ -1,5 +1,5 @@
 import React from "react"
-import selfImage from "";
+import selfImage from "../../assets/img/linkedin-logo.png";
 
 
 function About(){
