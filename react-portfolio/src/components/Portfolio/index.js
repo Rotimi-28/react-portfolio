@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBMask, MDBView } from "mdbreact";
 import photo1 from "../../assets/img/code-refactor.png";
 import photo2 from "../../assets/img/employees-tracker.png";
 import photo3 from "../../assets/img/pizza-hunt.png";
@@ -59,7 +59,7 @@ function Portfolio() {
                 <div className="row justify-content-md-center">
                     {currentWebsite.map((website, index) => (
                         <div className="websiteimages w-50 col-md-4 col-sm-6" key={index+1}>
-                            { /*<MDBView hover zoom>
+                            { <MDBView hover zoom>
                                 <img
                                 src={website.photo}
                                 alt="code-refactor"
@@ -68,11 +68,11 @@ function Portfolio() {
                                 />
                                 <MDBMask overlay="blue-grey-strong align-middle">
                                     <div className="logos align-middle mt-5 ml-5">
-                                        <a href={website.github} target="_blank"><img className="webimg" src={githubLogo} style={{ width: "25%" }} alt="logo"/></a>
-                                        <a href={website.url} target="_blank"><span className="webdescrioption h6 align-mddile"> {website.name}</span></a>
+                                        <a href={website.github} target="_blank"><img className="webimg" rel="noopener noreferrer" src={githubLogo} style={{ width: "25%" }} alt="logo"/></a>
+                                        <a href={website.url} target="_blank" rel="noopener noreferrer"><span className="webdescrioption h6 align-mddile"> {website.name}</span></a>
                                     </div>
                                </MDBMask> 
-                               </MDBView> */}
+                               </MDBView> }
                         </div>
                     )
                     )}
