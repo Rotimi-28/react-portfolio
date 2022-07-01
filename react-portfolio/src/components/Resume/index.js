@@ -28,7 +28,7 @@ function Resume() {
                             Handlebar
                         </li>
                         <li>
-                            REST API Development (front-end)
+                            REST API Development (front-End)
                         </li>
                     </ul>
                     <ul>
@@ -40,10 +40,10 @@ function Resume() {
                             SQL
                         </li>
                         <li>
-                            Mong
+                            Mongodb
                         </li>
                         <li>
-                            API Development (backend)
+                            API Development (back-End)
                         </li>
                     </ul>
 

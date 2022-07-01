@@ -23,8 +23,8 @@ function Portfolio() {
         photo: photo1
     },
     {
-        name: "code-refactor",
-        github: "https://github.com/Rotimi-28/employee-tracker/settings/pages",
+        name: "employee-tracker",
+        github: "https://github.com/Rotimi-28/employee-tracker",
         url: "https://rotimi-28.github.io/employee-tracker/",
         photo: photo2
     },
@@ -54,25 +54,29 @@ function Portfolio() {
     }];
     
     return(
+        
+        
+        
         <section>
             <div className="container">
                 <div className="row justify-content-md-center">
                     {currentWebsite.map((website, index) => (
                         <div className="websiteimages w-50 col-md-4 col-sm-6" key={index+1}>
-                            { <MDBView hover zoom>
+                            { <div>
+                                <div overlay="blue-grey-strong align-middle">
+                                    <div className="logos align-middle mt-5 ml-5">
+                                        <a href={website.github} target="_blank"><img className="webimg" rel="noopener noreferrer" src={githubLogo} style={{ width: "25%" }} alt="logo"/></a>
+                                        <a href={website.url} target="_blank" rel="noopener noreferrer"><span className="webdescrioption h6 align-mddile"> {website.name}</span></a>
+                                    </div>
+                               </div> 
                                 <img
                                 src={website.photo}
                                 alt="code-refactor"
                                 className="img-thumbnail mx-l"
                                 key={website.name}
                                 />
-                                <MDBMask overlay="blue-grey-strong align-middle">
-                                    <div className="logos align-middle mt-5 ml-5">
-                                        <a href={website.github} target="_blank"><img className="webimg" rel="noopener noreferrer" src={githubLogo} style={{ width: "25%" }} alt="logo"/></a>
-                                        <a href={website.url} target="_blank" rel="noopener noreferrer"><span className="webdescrioption h6 align-mddile"> {website.name}</span></a>
-                                    </div>
-                               </MDBMask> 
-                               </MDBView> }
+                                
+                               </div> }
                         </div>
                     )
                     )}

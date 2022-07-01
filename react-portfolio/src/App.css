@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+  
+} 
+
+*{
+  background-color: mediumaquamarine;
+  box-sizing: border-box;
+
 }
+
