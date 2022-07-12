@@ -2,9 +2,9 @@ import React from "react";
 import { MDBMask, MDBView } from "mdbreact";
 import photo1 from "../../assets/img/code-refactor.png";
 import photo2 from "../../assets/img/employees-tracker.png";
-import photo3 from "../../assets/img/pizza-hunt.png";
+import photo3 from "../../assets/img/my-team.png";
 import photo4 from "../../assets/img/pro-portfolio.png";
-import photo5 from "../../assets/img/run-buddy.png";
+import photo5 from "../../assets/img/destina-quiz.png";
 import photo6 from "../../assets/img/work-day-scheduler.png";
 //import photo7 from "../../assets/notes-taker.png";
 
@@ -29,9 +29,9 @@ function Portfolio() {
         photo: photo2
     },
     {
-        name: "pizza-hun",
-        github: "https://github.com/Rotimi-28/pizza-hunt",
-        url: "https://rotimi-28.github.io/pizza-hunt/",
+        name: "my-team-generator",
+        github: "https://github.com/Rotimi-28/my-team-generator",
+        url: "https://rotimi-28.github.io/my-team-generator/",
         photo: photo3
     },
     {
@@ -41,9 +41,9 @@ function Portfolio() {
         photo: photo4
     },
     {
-        name: "run-buddy",
-        github: "https://github.com/Rotimi-28/Run-Buddy",
-        url: "https://rotimi-28.github.io/Run-Buddy/",
+        name: "quiz-destination",
+        github: "https://github.com/Rotimi-28/destination-quiz",
+        url: "https://rotimi-28.github.io/destination-quiz/",
         photo: photo5
     },
     {

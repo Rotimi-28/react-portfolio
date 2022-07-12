@@ -5,7 +5,7 @@ import { validateEmail } from "../../utils/helpers";
 function ContactForm() {
     const [formState, setFormState] = useState({ name: "", email: "", message: "" });
     const [errorMessage, setErrorMeassage] = useState("");
-    const { name, email, message } = formState;
+    const { name, email, Message } = formState;
 
     //form submission use logging
     const handleSubmit = (e) => {
@@ -33,22 +33,22 @@ function ContactForm() {
         }
     };
     return(
-        <section>
-            <di className="p-5">
+        <section className="content-center">
+            <div className="p-5">
                 <h1 className="h1tag">Contact me</h1>
                 <form id="contac-form" onSubmit={handleSubmit}>
-                    <di>
+                    <div>
                         <label htmlFor="name">Name: </label>
                         <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                    </di>
+                    </div>
                     <div>
                     <label htmlFor="email">Email address: </label>
                         <input type="text" name="email" defaultValue={email} onBlur={handleChange} />
                     </div>
-                    <di>
+                    <div>
                     <label htmlFor="message">Message: </label>
-                        <input type="text"message="name" defaultValue={message} onBlur={handleChange} />
-                    </di>
+                        <input type="text"message="name" defaultValue={Message} onBlur={handleChange} />
+                    </div>
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>
@@ -57,7 +57,7 @@ function ContactForm() {
                     <button className="btn" type="submit">Submit</button>
                 </form>
 
-            </di>
+            </div>
         </section>
     )
 }

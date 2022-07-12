@@ -1,13 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
+ 
  
 function Nav(props) {
   const {
     setSectionSelected,
     sectionSelected,
   } = props;
-  //useEffect(() => {
-    //document.title = capitalizeFirstLetter(currentCategory.name);
-  //}, [currentCategory]);
+  // useEffect(() => {
+  //   document.title = capitalizeFirstLetter(currentCategory.name);
+  // }, [currentCategory]);
 
     return (
       <header>
