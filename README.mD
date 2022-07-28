@@ -34,3 +34,9 @@ Validation is performed to ensure the appropriate information has been entered c
 * Eamil address: [matanmearoja@yahoo.com](#matanmearoja@yahoo.com)
 
 * RepoLink: [https://github.com/Rotimi-28/react-portfolio](#repo)
+## Screen-Shot
+![]<img width="1440" alt="Screen Shot 2022-07-28 at 12 25 01 PM" src="https://user-images.githubusercontent.com/96090900/181627575-c6318c73-d4e9-41b5-a298-c9bd6d260d00.png">
+
+![]<img width="1440" alt="Screen Shot 2022-07-28 at 12 06 05 PM" src="https://user-images.githubusercontent.com/96090900/181627648-d7cc1763-f8fb-40dc-9ac3-9d343aba72e1.png">
+
+
