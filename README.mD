@@ -28,8 +28,7 @@ Please feel free to contribute, however, kindly  email me for any contribution
 Validation is performed to ensure the appropriate information has been entered correctly
 
 # Questions
-* GitHub: [
-](https://github.com/Rotimi-28)
+* GitHub: [https://github.com/Rotimi-28](#https://github.com/Rotimi-28)
 
 * Eamil address: [matanmearoja@yahoo.com](#matanmearoja@yahoo.com)
 
