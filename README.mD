@@ -28,11 +28,12 @@ Please feel free to contribute, however, kindly  email me for any contribution
 Validation is performed to ensure the appropriate information has been entered correctly
 
 # Questions
-* GitHub: [https://github.com/Rotimi-28](#https://github.com/Rotimi-28)
-
-* Eamil address: [matanmearoja@yahoo.com](#matanmearoja@yahoo.com)
+* GitHub: [https://github.com/Rotimi-28]
 
 * RepoLink: [https://github.com/Rotimi-28/react-portfolio](#repo)
+
+* * Eamil address: [matanmearoja@yahoo.com](#matanmearoja@yahoo.com)
+
 ## Screen-Shot
 ![]<img width="1440" alt="Screen Shot 2022-07-28 at 12 25 01 PM" src="https://user-images.githubusercontent.com/96090900/181627575-c6318c73-d4e9-41b5-a298-c9bd6d260d00.png">
 
