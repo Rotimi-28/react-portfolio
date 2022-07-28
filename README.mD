@@ -6,7 +6,7 @@
 * [Usage](#usage)
 * [Contribution](#contribution)
 * [Test](#test)
-* [Question](#question)
+* [Questions](#questions)
 
 # Description
 Appplication how my portfolio and other of my projects link website and github page. Its also includes contact me form, and it is powerd by REACT but,
